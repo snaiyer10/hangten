@@ -14,6 +14,7 @@
 		B4F8AF0E26756DC400211C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F8AF0D26756DC400211C60 /* Assets.xcassets */; };
 		B4F8AF1126756DC400211C60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F8AF1026756DC400211C60 /* Preview Assets.xcassets */; };
 		B4F8AF1426756DC400211C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F8AF1226756DC400211C60 /* LaunchScreen.storyboard */; };
+		B4F8AF1E2675703F00211C60 /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F8AF1D2675703F00211C60 /* APIData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4F8AF1026756DC400211C60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4F8AF1326756DC400211C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F8AF1526756DC400211C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F8AF1D2675703F00211C60 /* APIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B4F8AF0326756DC300211C60 /* BeachApp */ = {
 			isa = PBXGroup;
 			children = (
+				B4F8AF1C26756FE700211C60 /* Model */,
 				B4F8AF0426756DC300211C60 /* AppDelegate.swift */,
 				B4F8AF0626756DC300211C60 /* SceneDelegate.swift */,
 				B4F8AF0826756DC300211C60 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				B4F8AF1026756DC400211C60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4F8AF1C26756FE700211C60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4F8AF1D2675703F00211C60 /* APIData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				B4F8AF0526756DC300211C60 /* AppDelegate.swift in Sources */,
 				B4F8AF0C26756DC300211C60 /* BeachApp.xcdatamodeld in Sources */,
 				B4F8AF0726756DC300211C60 /* SceneDelegate.swift in Sources */,
+				B4F8AF1E2675703F00211C60 /* APIData.swift in Sources */,
 				B4F8AF0926756DC300211C60 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
